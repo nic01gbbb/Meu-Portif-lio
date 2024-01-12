@@ -1,0 +1,257 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"josefin sans";
+}
+body{
+width: 100vw;
+
+
+
+}
+
+
+.principal{
+height: 100vh;
+width: 100%;
+background: #222;
+background-position: center;
+background-size: cover;
+margin-bottom: -160px;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;
+}
+.porti{
+font-size: 40px;
+color: #ffff;
+font-weight: 700;
+}
+.porti span{
+color:#f9084d ;
+}
+ul{
+display: inline-block;
+
+}
+li{
+color: #ffff;
+list-style: none;
+display: inline-block;
+margin-right: 30px;
+font-size: 25px;
+cursor: pointer;
+}
+li:hover{
+color:#f9084d;
+transition: 0.5s;
+}
+.carinha{
+position: absolute;
+top:50%;
+left: 10%;
+}
+h1{
+color: white;
+font-size: 75px;
+}
+h1 span{
+color:#f9084d ;
+}
+.carinha h3{
+color: white;
+font-size: 25px;
+}
+.img{
+background-color: black;
+border-radius: 50%;
+height: 300px;
+width: 300px;
+border: 2px solid #f9084d;
+}
+section{
+display: flex;
+align-items: center;
+background-color: #111;
+color: white;
+width: 100%;
+padding: 60px 20em;
+gap: 2rem;
+}
+section .sobre {
+display: flex;
+flex-direction: column;
+width: 500px;
+position: absolute;
+margin-left: 340px;
+margin-bottom: 40px;
+height: 230px;
+}
+section h1{
+margin-bottom: 20px;
+}
+section p{
+margin-bottom: 35px;
+color: #ddd;
+font-size: 24px;
+}
+
+section button{
+width: 100%;
+max-width: 200px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f9084d;
+cursor: pointer;
+border-radius: 15px;
+border: 0;
+color: white;
+font-weight: 700;
+max-height: 100px;
+font-size: 15px;
+}
+button:hover{
+background-color: black;
+border: 2px solid #f9084d;
+transition: 0.5s;
+}
+.projeto{
+background-color: #191919;
+padding-top: 30px;
+gap: 2rem;
+height: 900px;
+display: flex;
+flex-direction: column;
+width: 100vw;
+
+}
+.projeto h2{
+color: white;
+font-size: 75px;
+}
+.card{
+background-color:black;
+min-height: 400px;
+width: 335px;
+border-radius: 10px;
+text-align: center;
+padding: 20px 35px;
+height: 100%;
+position: relative;
+padding-bottom: 50px;
+}
+.cardt{
+width: 100px;
+margin-bottom: 10px;
+}
+.clima{
+height: 110px;
+}
+.cartamemoria{
+width: 70px;
+height: 100px;
+}
+.card h5{
+color: white;
+font-size: 24px;
+margin-bottom: 20px;
+}
+.card p{
+color: #ddd;
+
+}
+.cards{
+display: flex;
+justify-content: space-around;
+
+}
+.projeto h2{
+margin-bottom: 15px;
+width: 100%;
+text-align: center;
+}
+.card a{
+cursor: pointer;
+background-color: #f9084d;
+color: white;
+border-radius: 25px;
+height: 30px;
+padding:10px  20px;
+transition: 0.5s;
+text-decoration: none;
+
+}
+.card a:hover{
+background-color: transparent;
+border: 2px solid #f9084d;
+}
+.conteudo{
+min-height: 250px;
+margin-bottom: 5px ;
+height: 100%;
+}
+.imgpessoal{
+height:  25px;
+border-radius: 50%;
+
+
+}
+footer{
+background-color: black;
+padding-bottom: 100px;
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+footer h5{
+color: white;
+font-size: 30px;
+}
+footer p{
+color: white;
+font-size: 18px;
+margin-top: 14px;
+margin-bottom: 30px;
+
+}
+.social a{
+background-color: #f9084d;
+padding: 15px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+cursor: pointer;
+}
+.social{
+display: flex;
+gap: 1rem;
+}
+.social a:hover{
+transform: scale(1.3);
+transition: 0.5s;
+
+}
+
+li a{
+text-decoration: none;
+color: white;
+}
+li a:hover{
+color: #f9084d;
+transition: 0.5s;
+
+}
+
