@@ -102,7 +102,7 @@ color: #ddd;
 font-size: 24px;
 }
 
-section a{
+section button{
 width: 100%;
 max-width: 200px;
 padding: 20px;
@@ -122,7 +122,7 @@ text-decoration: none;
 
 
 }
-section a:hover{
+section button:hover{
 background-color: black;
 border: 2px solid #f9084d;
 transition: 0.5s;
