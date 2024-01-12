@@ -52,10 +52,11 @@ li:hover{
 color:#f9084d;
 transition: 0.5s;
 }
-.nicholas{
+.perfil{
 position: absolute;
 top:50%;
 left: 10%;
+background:red;
 }
 h1{
 color: white;
@@ -64,7 +65,7 @@ font-size: 75px;
 h1 span{
 color:#f9084d ;
 }
-.nicholas h3{
+.perfil h3{
 color: white;
 font-size: 25px;
 }
