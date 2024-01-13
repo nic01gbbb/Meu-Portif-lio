@@ -246,7 +246,6 @@ align-items: center;
     }
     footer{
     background-color: black;
-    padding-bottom: 10px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
