@@ -227,7 +227,7 @@ align-items: center;
     transition: 0.5s;
     text-decoration: none;
     position: absolute;
-    top:100%;
+    margin-top:100%;
     }
     .card a:hover{
     background-color: transparent;
