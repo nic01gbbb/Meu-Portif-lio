@@ -28,17 +28,22 @@
       padding-top: 20px;
       
     } 
-  
-  
-  
-  
   .porti{
     font-size: 40px;
     color: #ffff;
     font-weight: 700;
    
   }
-    .porti span{
+  .conteudo img{
+   heigth:500px
+
+
+
+  }
+
+
+
+  .porti span{
     color:#f9084d ;
     }
     ul{
