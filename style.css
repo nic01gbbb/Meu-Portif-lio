@@ -290,7 +290,7 @@ li a:hover {
   max-width: 220px;
   position: relative;
   @media (min-width: 780px) {
-    background-color: red;
+    
     min-width: 200px;
   }
 }
