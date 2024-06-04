@@ -240,15 +240,6 @@ font-size: 18px;
 
 
 }
-
-
-
-
-
-
-
-
-
 footer{
   background-color: black;
   padding-top: 50px;
@@ -321,5 +312,8 @@ user-select:none;
 pointer-events:none;
 
 }
-
+.pr{
+boackground:none
+}
+  
   
