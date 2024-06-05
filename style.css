@@ -263,17 +263,16 @@ li a:hover {
 
 .divcard img {
   max-width: 100px;
-  min-height: 150px;
-  height: 100vh;
+  height: 200px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
   @media (max-width: 780px) {
-    min-width: 80px;
-    min-height: 50px;
-    margin-top: 50px;
+    min-width: 60px;
+    min-height: 60px;
+    margin-top: 150px;
   }
 }
 
@@ -309,16 +308,16 @@ li a:hover {
 }
 
 .mural {
-  margin-top: 10px;
+  margin-top: 0px;
   color: white;
   font-size: 15px;
-  padding: 100px 0;
+  padding: 15px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   background-color: black;
-  padding-bottom: 255px;
+  padding-bottom: 280px;
   height: 47rem;
   max-width: 300px;
   position: relative;
@@ -333,7 +332,7 @@ li a:hover {
 }
 
 .mural p {
-  min-height: 100px;
+  max-height: 100px;
   font-size: 14px;
   max-width: 200px;
   padding: 5px;
@@ -343,13 +342,16 @@ li a:hover {
   }
   @media (max-width: 780px) {
     font-size: 9px;
+    max-height: 80px;
   }
   @media (max-width: 555px) {
     font-size: 8px;
+    padding-bottom: 150px;
   }
 }
 
 .mural h2 {
+  max-height: 200px;
   color: yellow;
   margin-bottom: 15px;
   @media (max-width: 713px) {
