@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "josefin sans";
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 body {
   width: 100vw;
@@ -66,7 +66,7 @@ h1 span {
 }
 .Perfil {
   margin-top: 80px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .ph3 {
@@ -87,9 +87,9 @@ section {
   background-color: #111;
   color: white;
   padding: 10% 5%;
-
   width: 100%;
   min-width: 10%;
+  margin-top: -300px;
 }
 section .sobre {
   display: flex;
@@ -97,7 +97,7 @@ section .sobre {
   width: 100%;
   position: absolute;
   margin-left: 35%;
-  margin-bottom: 40%;
+  margin-bottom: 10px;
   height: 10%;
 }
 section h1 {
@@ -270,8 +270,39 @@ li a:hover {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  @media (max-width: 780px) {
+    min-width: 80px;
+    min-height: 50px;
+    margin-top: 50px;
+  }
 }
 
+.projeto {
+  padding-top: 15px;
+  background-color: #111;
+}
+
+.divcard {
+  display: grid;
+  background-color: #111;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 10px;
+  @media (max-width: 953px) {
+    grid-template-columns: repeat(3, 200px);
+  }
+  @media (max-width: 713px) {
+    grid-template-columns: repeat(3, 150px);
+  }
+
+  @media (max-width: 555px) {
+    grid-template-columns: repeat(3, 100px);
+  }
+  @media (max-width: 403px) {
+    gap: 10px;
+  }
+}
 .projeto {
   width: 100vw;
 }
@@ -280,25 +311,31 @@ li a:hover {
   margin-top: 10px;
   color: white;
   font-size: 15px;
-  padding: 70px 0;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  background-color: black;
   padding-bottom: 255px;
-  height: 40rem;
-  max-width: 220px;
+  height: 45rem;
+  max-width: 300px;
   position: relative;
-  @media (min-width: 780px) {
-    
-    min-width: 200px;
+  @media (max-width: 780px) {
+    height: 25rem;
+    max-width: 500px;
+  }
+  @media (max-width: 555px) {
+    height: 25rem;
+    max-width: 300px;
   }
 }
 
 .mural p {
   min-height: 100px;
-  font-size: 15px;
+  font-size: 14px;
   max-width: 200px;
+  padding: 5px;
   margin: 10px auto;
   @media (max-width: 1200px) {
     font-size: 12px;
@@ -306,18 +343,19 @@ li a:hover {
   @media (max-width: 780px) {
     font-size: 10px;
   }
+  @media (max-width: 555px) {
+    font-size: 8px;
+  }
 }
 
 .mural h2 {
   color: yellow;
   margin-bottom: 15px;
-  @media (max-width: 780px) {
-    font-size: 5px;
+  @media (max-width: 713px) {
+    font-size: 12px;
   }
 }
-.mural h2 {
-  font-size: 20px;
-}
+
 .mural a {
   position: absolute;
   bottom: 5px;
@@ -326,16 +364,16 @@ li a:hover {
   color: white;
   cursor: pointer;
 }
+
+.nome,
+.ph3 {
+  font-size: 30px;
+}
+
 .principal h1,
-span {
+.nome {
   @media (max-width: 408px) {
     font-size: 18px;
     margin-bottom: 10px;
   }
 }
-.principal h2 span {
-  @media (max-width: 408px) {
-    font-size: 18px;
-  }
-}
-
