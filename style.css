@@ -305,6 +305,7 @@ li a:hover {
 }
 .projeto {
   width: 100vw;
+  padding-bottom: 10px;
 }
 
 .mural {
@@ -318,7 +319,7 @@ li a:hover {
   position: relative;
   background-color: black;
   padding-bottom: 255px;
-  height: 45rem;
+  height: 47rem;
   max-width: 300px;
   position: relative;
   @media (max-width: 780px) {
@@ -326,7 +327,7 @@ li a:hover {
     max-width: 500px;
   }
   @media (max-width: 555px) {
-    height: 25rem;
+    height: 28rem;
     max-width: 300px;
   }
 }
@@ -341,7 +342,7 @@ li a:hover {
     font-size: 12px;
   }
   @media (max-width: 780px) {
-    font-size: 10px;
+    font-size: 9px;
   }
   @media (max-width: 555px) {
     font-size: 8px;
@@ -363,6 +364,9 @@ li a:hover {
   background-color: #f9084d;
   color: white;
   cursor: pointer;
+  @media (max-width: 560px) {
+    font-size: 8px;
+  }
 }
 
 .nome,
